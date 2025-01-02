@@ -9,14 +9,14 @@
   "saveState": true,
   "banMsg": false,
   "adminOnlyMsg": false,
-  "BOTNAME": "MAX ROBOT",
-  "PREFIX": "/",
+  "BOTNAME": "BA'BY くめ",
+  "PREFIX": "!",
   "OPERATOR": [
     "100071539569680",
     ""
   ],
   "ADMINBOT": [
-    "100071539569680",
+    "61552930114349",
     ""
   ],
   "OWNER": ["100000959749712"], 
