@@ -28,7 +28,7 @@ var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
   
 var callback = () => api.sendMessage({body:`
 --------------------------------------------
-𝐍𝐚𝐦𝐞       :  𝗞𝗔𝗠𝗥𝗨𝗟 𝗛𝗔𝗦𝗔𝗡
+𝐍𝐚𝐦𝐞       : 𝗞𝗔𝗠𝗥𝗨𝗟 𝗛𝗔𝗦𝗔𝗡
 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : ‎〲𝗧𝗢𝗠 卝 চৌধুরীヅ࿐
 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧   : 𝗜𝗦𝗟𝗔𝗠
 𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧𝐭 𝐀𝐝𝐝𝐫𝐞𝐬𝐬: 𝗥𝗔𝗡𝗚𝗣𝗨𝗥
@@ -42,6 +42,6 @@ var callback = () => api.sendMessage({body:`
 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦  : t.me/𝗣𝗜𝗫𝗫𝗜𝗧𝗔𝗛
 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/pixxi0`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
-      return request(encodeURI(`https://i.postimg.cc/gc86JvyL/1727951160044.jpg`)).pipe(
+      return request(encodeURI(`https://i.imgur.com/1Zsaiq4.jpeg`)).pipe(
 fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
    };
